@@ -192,7 +192,7 @@ li {
     font-family: 'Helvetica Neue','Poppins', sans-serif;
     font-size: 30px;
     font-weight: 700;
-    color: #FFF;
+    color: rgb(211, 212, 216);
 	letter-spacing: 1px;
     margin: 0 0 5px;
     
@@ -221,8 +221,17 @@ li {
 }
 
 .header .social-icons ul li a {
-    color: #FFF;
+    color: rgb(131, 121, 121);
 }
+
+.header .social-icons ul li a:hover {
+    color: rgb(237, 243, 160);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+  }
 
 .header .social-icons ul li a i {
     font-size: 16px;
@@ -243,12 +252,12 @@ li {
 }
 
 .header .main-nav ul li a {
-    color: #fff;
+    color: rgb(160, 151, 151);
     font-family: 'Helvetica Neue','Poppins', sans-serif;
     font-size: 12px;
     font-weight: 400;
 	letter-spacing: 2px;
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
     position: relative;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
